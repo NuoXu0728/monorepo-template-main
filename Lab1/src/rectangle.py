@@ -5,7 +5,12 @@
  Note that there is no constructor or destructor,
  so a default one will be created for us.
 """
+
 class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+        
     def set_values(self, x, y):
         self.width = x
         self.height = y
