@@ -5,3 +5,7 @@ class Shape:
     def set_values(self, x, y):
         pass
 
+    @abstractmethod
+    
+    def area (self):
+        pass
