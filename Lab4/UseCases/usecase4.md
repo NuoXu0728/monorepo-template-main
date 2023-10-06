@@ -6,31 +6,35 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Drawing on the Canvas Using Left-Click
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To draw on the canvas in a continuous manner, emulating the experience of drawing with a pencil on paper.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Preconditions**: The application is open and running.
+
+**Trigger**: User left-clicks (presses down) on the mouse while hovering over the canvas.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: User hovers the mouse over the location they intend to start drawing on the canvas.
+**Scenario 2**: System recognizes the left mouse button press event
+**Scenario 3**:As the user drags the mouse across the canvas, the system continuously changes the pixel color at the current mouse position to the selected color.
+**Scenario 4**:User creates a continuous drawing on the canvas by dragging the mouse.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: If the system fails to remember the most recently selected color, the drawing might default to a pre-defined color.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High - This feature is essential for users to create drawings and designs on the canvas.
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Version 1.0.0 of the application.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: Direct interaction through the application's GUI, specifically the canvas area.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: Handling scenarios where mouse events might be incorrectly detected due to system performance issues.
 
 <hr>
 

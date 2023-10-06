@@ -6,31 +6,34 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Initialize Drawing Window
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: Application/System
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To provide a designated area for users to draw, ensuring it is properly sized and ready for interaction.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The application has been started by the user.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: The application's launch or start event.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 1**: User launches the drawing application.
+**Scenario 2**:The application initializes a new window with a specific dimension.
+**Scenario 3**:The drawable canvas within the window is set up to be 600 pixels wide by 400 pixels high.
+**Scenario 4**:The window is displayed to the user with the canvas ready for drawing.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Exceptions**: If the display resolution is smaller than the specified canvas size, the window should adjust to fit the screen and inform the user.
 
-**When available**: *the targeted release that covers this use case*
+**Priority**: High-priority. Without initializing the window and canvas correctly, the primary functionality of drawing will be compromised.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**When available**: First release
+**Channel to actor**: Via the GUI interface of the application, specifically the initialized window and canvas.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: User (who interacts with the initialized window)
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: Via the GUI interface of the application, allowing the user to draw and interact with the canvas.
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: How to handle window resizing events by the user?
+
 
 <hr>
 
