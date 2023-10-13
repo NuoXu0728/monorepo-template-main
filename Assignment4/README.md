@@ -1,12 +1,11 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Name: Nuo Xu
+- How many hours did it take you to complete this assignment? 1hr
+- Did you collaborate with any other students/TAs/Professors? yes, with my team member to create new org in github
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
-- (Optional) What was your favorite part of the assignment?
+  Nothing
+- (Optional) What was your favorite part of the assignment? group project set up
 - (Optional) How would you improve the assignment?
 
 # Implementation Logistics
